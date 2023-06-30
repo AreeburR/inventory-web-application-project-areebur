@@ -8,16 +8,37 @@
 <body>
     <h1>Snack Inventory</h1>
     <div>
-        <img height="200" src="https://pics.walgreens.com/prodimg/595137/900.jpg" alt="Picture of Original Flavor Pringles">
         <h2>Original Flavor Pringles</h2>
+        <img height="200" src="https://pics.walgreens.com/prodimg/595137/900.jpg" alt="Picture of Original Flavor Pringles">
     </div>
     <div>
-        <img height="200" src="https://www.skittles.com/sites/g/files/fnmzdf586/files/migrate-product-files/yyjvqdz59i6fss3trvgo.png" alt="Picture of Sour Skittles">
         <h2>Sour Skittles</h2>
+        <img height="200" src="https://www.skittles.com/sites/g/files/fnmzdf586/files/migrate-product-files/yyjvqdz59i6fss3trvgo.png" alt="Picture of Sour Skittles">
     </div>
     <div>
-        <img height="200" src="https://i5.walmartimages.com/asr/cd65164c-ac0c-4d32-9011-1785961b3696.bf7460a9cd0d89c4ff5764ccbd5d97ca.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Picture of Cosmic Brownies">
         <h2>Cosmic Brownies</h2>
+        <img height="200" src="https://i5.walmartimages.com/asr/cd65164c-ac0c-4d32-9011-1785961b3696.bf7460a9cd0d89c4ff5764ccbd5d97ca.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Picture of Cosmic Brownies">
     </div>
+    <section>
+        <form>
+            <h2>Add New Snack</h2>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+            <label for="quantity">Quantity</label>
+            <input id="quantity" name="quantity" type="text">
+            <label for="image">Image URL</label>
+            <input id="image" name="image" type="text">
+            <label for="price">Price</label>
+            <input id="price" name="price" type="text">
+            <label for="stock">In Stock</label>
+            <select id="stock" name="stock">
+                <option>Select One</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <button type="submit">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
