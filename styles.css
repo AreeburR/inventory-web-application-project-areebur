@@ -32,7 +32,7 @@ button {
 }
 
 #inStock {
-    background-color: aquamarine;
+    background-color: green;
 }
 
 #remove {
@@ -42,4 +42,10 @@ button {
 
 #submit {
     background-color: aqua;
+}
+
+@media (max-width: 760px) {
+    .collection {
+        grid-template-columns: 1fr;
+    }
 }
