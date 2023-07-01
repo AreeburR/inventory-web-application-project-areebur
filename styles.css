@@ -1,7 +1,11 @@
-.collection {
+.collection ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: minmax(100px, auto);
+}
+
+ul {
+    list-style-type: none;
 }
 
 img {
@@ -45,7 +49,7 @@ button {
 }
 
 @media (max-width: 760px) {
-    .collection {
+    .collection ul{
         grid-template-columns: 1fr;
     }
 }

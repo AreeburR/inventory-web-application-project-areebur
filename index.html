@@ -12,36 +12,38 @@
         <h1>Snack Inventory</h1>
     </header>
     <div class="collection">
-        <div class="snack">
-            <h2>Original Flavor Pringles</h2>
-            <hr>
-            <img src="https://pics.walgreens.com/prodimg/595137/900.jpg" alt="Picture of Original Flavor Pringles">
-            <p>Minimum Quantity: 5</p>
-            <p>Price: $3</p>
-            <button id="inStock">In Stock</button>
-            <br>
-            <button id="remove">Remove</button>
-        </div>
-        <div class="snack">
-            <h2>Sour Skittles</h2>
-            <hr>
-            <img src="https://www.skittles.com/sites/g/files/fnmzdf586/files/migrate-product-files/yyjvqdz59i6fss3trvgo.png" alt="Picture of Sour Skittles">
-            <p>Minimum Quantity: 10</p>
-            <p>Price: $2</p>
-            <button id="inStock">In Stock</button>
-            <br>
-            <button id="remove">Remove</button>
-        </div>
-        <div class="snack">
-            <h2>Cosmic Brownies</h2>
-            <hr>
-            <img src="https://i5.walmartimages.com/asr/cd65164c-ac0c-4d32-9011-1785961b3696.bf7460a9cd0d89c4ff5764ccbd5d97ca.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Picture of Cosmic Brownies">
-            <p>Minimum Quantity: 5</p>
-            <p>Price: $5</p>
-            <button id="inStock">In Stock</button>
-            <br>
-            <button id="remove">Remove</button>
-        </div>
+        <ul>
+            <li>
+                <h2>Original Flavor Pringles</h2>
+                <hr>
+                <img src="https://pics.walgreens.com/prodimg/595137/900.jpg" alt="Picture of Original Flavor Pringles">
+                <p>Minimum Quantity: 5</p>
+                <p>Price: $3</p>
+                <button id="inStock">In Stock</button>
+                <br>
+                <button id="remove">Remove</button>
+            </li>
+            <li>
+                <h2>Sour Skittles</h2>
+                <hr>
+                <img src="https://www.skittles.com/sites/g/files/fnmzdf586/files/migrate-product-files/yyjvqdz59i6fss3trvgo.png" alt="Picture of Sour Skittles">
+                <p>Minimum Quantity: 10</p>
+                <p>Price: $2</p>
+                <button id="inStock">In Stock</button>
+                <br>
+                <button id="remove">Remove</button>
+            </li>
+            <li>
+                <h2>Cosmic Brownies</h2>
+                <hr>
+                <img src="https://i5.walmartimages.com/asr/cd65164c-ac0c-4d32-9011-1785961b3696.bf7460a9cd0d89c4ff5764ccbd5d97ca.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Picture of Cosmic Brownies">
+                <p>Minimum Quantity: 5</p>
+                <p>Price: $5</p>
+                <button id="inStock">In Stock</button>
+                <br>
+                <button id="remove">Remove</button>
+            </li>
+        </ul>
     </div>
     <section>
         <form>
@@ -51,7 +53,7 @@
             <br>
             <input id="name" name="name" type="text" required>
             <br>
-            <label for="quantity">Quantity</label>
+            <label for="quantity">Minimum Quantity</label>
             <br>
             <input id="quantity" name="quantity" type="text" required>
             <br>
